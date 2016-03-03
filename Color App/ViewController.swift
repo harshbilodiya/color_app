@@ -10,6 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Make background Red
+    @IBAction func redTapped(sender: AnyObject) {
+        self.view.backgroundColor = UIColor.redColor()
+    }
+    
+    // Make background Green
+    @IBAction func greenTapped(sender: AnyObject) {
+        self.view.backgroundColor = UIColor.greenColor()
+    }
+    
+    // Make background Yellow
+    @IBAction func yellowTapped(sender: AnyObject) {
+        self.view.backgroundColor = UIColor.yellowColor()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
