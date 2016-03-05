@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.yellowColor()
     }
     
+    @IBAction func orangeTapped(sender: AnyObject) {
+        self.view.backgroundColor = UIColor.orangeColor()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
