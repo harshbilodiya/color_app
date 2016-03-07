@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.orangeColor()
     }
     
+    @IBAction func makeWhite(sender: AnyObject) {
+        self.view.backgroundColor = UIColor.whiteColor()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -18,21 +18,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SlV-22-gdj">
-                                <rect key="frame" x="113" y="238" width="123" height="37"/>
+                                <rect key="frame" x="126" y="224" width="123" height="37"/>
                                 <state key="normal" title="Make me Red"/>
                                 <connections>
                                     <action selector="redTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JkJ-Vc-iIK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NlY-8C-2Ly">
-                                <rect key="frame" x="126" y="319" width="108" height="30"/>
+                                <rect key="frame" x="133" y="333" width="108" height="30"/>
                                 <state key="normal" title="Make me Green"/>
                                 <connections>
                                     <action selector="greenTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wtm-kY-Jik"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j60-0f-Hhn">
-                                <rect key="frame" x="119" y="407" width="110" height="30"/>
+                                <rect key="frame" x="133" y="442" width="110" height="30"/>
                                 <state key="normal" title="Make me Yellow"/>
                                 <connections>
                                     <action selector="yellowTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDg-3d-JhF"/>
@@ -42,12 +42,24 @@
                                 <rect key="frame" x="-23" y="-21" width="433" height="172"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anw-hS-5qs">
-                                <rect key="frame" x="116" y="480" width="117" height="30"/>
+                                <rect key="frame" x="135" y="557" width="117" height="30"/>
                                 <state key="normal" title="Make me Orange"/>
                                 <connections>
                                     <action selector="orangeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uS-i6-mL1"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ORz-n0-sCn">
+                                <rect key="frame" x="163" y="159" width="51" height="31"/>
+                                <connections>
+                                    <action selector="makeWhite:" destination="BYZ-38-t0r" eventType="valueChanged" id="WaR-6c-JVl"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESET" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOV-0E-auI">
+                                <rect key="frame" x="161" y="195" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
